@@ -1,0 +1,52 @@
+.container > p > .btn {
+  margin: 5px 0;
+}
+
+.navbar .container {
+  width: auto;
+}
+
+.cc {
+    display:inline-block;
+    float:none;
+    text-align:left;
+}
+
+#actions {
+	margin-bottom: 10px;
+}
+
+.forms {
+	margin:5px 0px;
+}
+
+#new_contact, #searchBox, #edit_contact{
+	display:none;
+}
+
+#new_contact .input-group, #edit_contact .input-group {
+	width:140px;
+}
+
+.input-group {
+	margin-right: 5px;
+}
+
+
+h2 {
+	display: block;
+	margin-top: 5px;
+	font-size: 3em;
+	color: white;
+}
+
+#loading {
+	display: none;
+	width:100%;
+	height:60px;
+    background: url('../images/loading.gif') 50% 50% no-repeat;
+}
+
+#contactsTable button{
+	margin-left:5px;
+}
