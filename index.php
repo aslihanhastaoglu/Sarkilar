@@ -11,21 +11,21 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="content-language" content="tr" />
 	<!-- CSS -->
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-	<link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="assets/css/custom.css" rel="stylesheet">
+	<link href="bootstrap.min.css" rel="stylesheet">
+	<link href="bootstrap-theme.min.css" rel="stylesheet">
+	<link href="custom.css" rel="stylesheet">
 	<!-- JS -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/custom.js"></script>
+	<script src="jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<script src="custom.js"></script>
 </head>
-<body background="assets/images/arkaplan.jpg">
+<body background="arkaplan.jpg">
 	
 <!-- DATABASE CONNECTION -->
 <?php
-	include_once "includes/ez_sql_core.php";
-	include_once "includes/ez_sql_mysqli.php";
-	include_once "includes/config.php";
+	include_once "ez_sql_core.php";
+	include_once "ez_sql_mysqli.php";
+	include_once "config.php";
 	$db = new ezSQL_mysqli($db_user, $db_password, $db_name, $db_host);
 	$db->query("SET NAMES utf8"); 
 ?>
